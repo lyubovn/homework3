@@ -1,0 +1,130 @@
+body {
+	background-color: #f9f9f9;
+}
+
+.wrapper {
+	width: 1000px;
+	border: 1px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 50px 50px 50px 60px;
+	background-color: #fff;
+	border-left: 2px solid #e7e7e7;
+	border-right: 2px solid #e7e7e7;
+}
+
+.top_menu{
+    display: block;
+    width: 850px;
+	margin: 40px auto;
+	background: #4c4c4c;
+	height: 40px;
+}
+
+.top_menu li{
+    display: inline-block;
+    font-size: 14px;
+	line-height: 40px;
+}
+
+.top_menu li a{
+	display: block;  /* для внутренних отсупов  */
+	padding: 0px 30px;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+ 	text-decoration: none;
+ 	color: white;
+}
+.top_menu li a:hover{
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+	background: 545454;
+}
+
+.left_menu{
+   list-style: none;   /* маркеры удаляем */
+   width: 200px;
+   float: left;   
+}
+
+.left_menu li{
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    font-size: 14px;
+	line-height: 40px;
+}
+
+.left_menu li:last-child {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.left_menu li a{
+    display: block;
+    text-decoration: none;
+    color: #656363;
+	padding-left: 24px;
+}
+.left_menu li a:hover{
+    background-color: #f9f9f9;
+    padding-left: 14px;
+	color: #2c2c2c;
+}
+
+.photo {
+ 	text-align: center;
+    width: 500px;
+    height: auto;
+    border: 1px solid #c8c8c8;
+    padding: 50px;
+	margin: 0 auto;
+}
+
+.content {
+	margin-top: 30px;
+	width: 600px;
+	box-sizing: border-box;
+	float: right;
+}
+
+.content p {
+    color: #2c2b2b;
+    font-size: 14px;
+    padding: 30px;
+    font-family: "Myriad Pro";
+}
+
+.footer {
+    width: 840px;
+    height: 40px;
+    background: #e1e1e1;
+    margin: 40px 0px 0px 0px;
+    padding: 0 30px;
+    display: flex;
+}
+
+.footer_menu{
+	list-style: none;
+}
+
+.footer_menu li{
+	float: left;                /* в один ряд */
+	margin-right: 30px;
+	text-decoration: none;
+	font-size: 14px; 
+}
+.footer_menu li a{
+	text-decoration: none;
+	display: block;  /* для внутренних отсупов  */
+	padding: 3px 5px;
+	background: #e1e1e1;
+	color: black;
+}
+.footer_menu li a:hover{
+	text-decoration: underline;
+}
+
+.footer p {
+	margin-left: 250px;
+	margin-right: 10px;
+}
